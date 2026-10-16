@@ -443,6 +443,3 @@ class DataRepository:
         except OSError as error:
             raise StorageError("Could not save quiz results.") from error
         return target
-
-    def export_incidents(self, incidents, path):
-        return self.save_incidents(incidents, path)

@@ -34,18 +34,6 @@ class Article(LearningContent):
     def label(self):
         return self.title
 
-    def get_dict(self):
-        return {
-            "article_id": self.article_id,
-            "title": self.title,
-            "category": self.category,
-            "summary": self.summary,
-            "content": self.content,
-            "source_name": self.source_name,
-            "source_url": self.source_url,
-            "published_at": self.published_at,
-        }
-
 
 class QuizQuestion(LearningContent):
     def __init__(
@@ -101,17 +89,8 @@ class ArticleService:
     def __init__(self, articles=None):
         self.articles = articles or []
 
-    def add_article(self, article: Article):
-        self.articles.append(article)
-
     def get_all_articles(self):
         return self.articles
-
-    def get_article_by_id(self, article_id):
-        for article in self.articles:
-            if article.article_id == article_id:
-                return article
-        return None
 
     def search_articles(self, keyword):
         keyword = keyword.lower()
@@ -136,18 +115,6 @@ class ArticleService:
 class QuizService:
     def __init__(self, questions=None):
         self.questions = questions or []
-
-    def add_question(self, question: QuizQuestion):
-        self.questions.append(question)
-
-    def get_questions_by_topic(self, topic):
-        if not topic or topic == "All":
-            return self.questions
-        return [
-            question
-            for question in self.questions
-            if question.topic.lower() == topic.lower()
-        ]
 
     def calculate_score(self, user_answers: dict):
         score = 0

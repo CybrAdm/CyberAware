@@ -85,19 +85,5 @@ class HashTable:
 
         return None
 
-    def delete(self, key):
-        bucket = self.buckets[self._index(key)]
-
-        for position, item in enumerate(bucket):
-            if item[0] == key:
-                bucket.pop(position)
-                self.count -= 1
-                return True
-
-        return False
-
     def size(self):
         return self.count
-
-    def is_empty(self):
-        return self.count == 0

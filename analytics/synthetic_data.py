@@ -1,7 +1,6 @@
 import random
 from datetime import datetime, timedelta
 
-from analytics.dashboard import IncidentAnalyzer
 from analytics.data_files import (
     AFFECTED_SCOPES,
     CATEGORIES,
@@ -285,27 +284,3 @@ def generate_and_save_synthetic_dataset(data_dir=None, incident_count=INCIDENT_C
         "dirty_incidents": len(dirty),
         "data_dir": str(repository.data_dir),
     }
-
-
-def print_analytics_preview(data_dir=None):
-    repository = DataRepository(data_dir)
-    analyzer = IncidentAnalyzer(repository)
-    incidents = repository.load_incidents()
-    quiz_results = repository.load_quiz_results()
-    metrics = analyzer.get_dashboard_metrics(incidents, quiz_results=quiz_results)
-    kpis = metrics["kpis"]
-    print("CyberAware analytics preview (synthetic data)")
-    print("Total incidents:", kpis["total_incidents"])
-    print("Unresolved:", kpis["unresolved_incidents"], kpis["unresolved_percent"])
-    print("Average review hours:", kpis["average_review_hours"])
-    print("By category:")
-    print(metrics["by_category"].to_string(index=False))
-    print("Insights:")
-    for line in metrics["insights"]:
-        print("-", line)
-
-
-if __name__ == "__main__":
-    summary = generate_and_save_synthetic_dataset()
-    print("Wrote synthetic dataset:", summary)
-    print_analytics_preview(summary["data_dir"])

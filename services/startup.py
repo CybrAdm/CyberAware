@@ -5,7 +5,7 @@ from pathlib import Path
 from analytics.synthetic_data import generate_and_save_synthetic_dataset
 from analytics.data_files import DATA_DIR, DataRepository, incidents_from_records
 from auth.users import seed_admin
-from awareness.articles_and_quiz import Article, ArticleService, QuizQuestion
+from awareness.articles_and_quiz import Article, QuizQuestion
 from awareness.starter_content import ARTICLES, QUIZ_QUESTIONS
 from core.incident import IncidentManager
 
@@ -131,7 +131,3 @@ def next_question_id(questions):
         if question_id.startswith("Q") and question_id[1:].isdigit():
             highest = max(highest, int(question_id[1:]))
     return "Q" + str(highest + 1)
-
-
-def article_service(repository):
-    return ArticleService(articles_as_objects(repository.load_articles()))

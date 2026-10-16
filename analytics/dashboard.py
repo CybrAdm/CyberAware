@@ -434,13 +434,11 @@ class IncidentAnalyzer:
             "by_status": self.group_by_status(filtered),
             "by_severity": self.group_by_severity(filtered),
             "trend": self.analyze_trends(filtered, freq=trend_freq),
-            "recurring_categories": self.group_by_category(filtered),
             "quiz": quiz_metrics,
             "insights": self._insights(filtered, kpis, quiz_metrics),
             "is_empty": bool(filtered.empty),
             "message": empty_message,
             "cleaning_report": cleaning_report,
-            "filters_applied": filters or {},
             "filtered_incidents": filtered,
         }
 
