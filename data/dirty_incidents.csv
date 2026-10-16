@@ -1,0 +1,11 @@
+incident_id,reported_at,category,description,severity,urgency,affected_scope,priority_score,status,reviewed_at,resolution
+INC-9001,01/09/2026 10:00 AM,Phishing / Suspicious Message,[SIMULATED] Valid dirty-set control row.,High,Medium,One user,5,Submitted,,
+INC-9001,01/09/2026 10:00 AM,Phishing / Suspicious Message,[SIMULATED] Valid dirty-set control row.,High,Medium,One user,5,Submitted,,
+INC-9002,2026-09-01,Phishing / Suspicious Message,[SIMULATED] Invalid ISO date on purpose.,High,Medium,One user,5,Submitted,,
+INC-9003,01/09/2026 10:00 AM,Phishing / Suspicious Message,,High,Medium,One user,5,Submitted,,
+INC-9004,01/09/2026 10:00 AM,Hacking,[SIMULATED] Invalid category on purpose.,High,Medium,One user,5,Submitted,,
+INC-9005,01/09/2026 10:00 AM,Phishing / Suspicious Message,[SIMULATED] Wrong priority on purpose.,Low,Low,One user,99,Submitted,,
+INC-9006,01/09/2026 10:00 AM,Phishing / Suspicious Message,[SIMULATED] Invalid status on purpose.,High,Medium,One user,5,Done,,
+,01/09/2026 10:00 AM,Phishing / Suspicious Message,[SIMULATED] Missing ID on purpose.,High,Medium,One user,5,Submitted,,
+INC-9008,01/09/2026 10:00 AM,Phishing / Suspicious Message,[SIMULATED] Invalid review timestamp on purpose.,High,Medium,One user,5,Under Review,not-a-date,
+,,,,,,,,,,

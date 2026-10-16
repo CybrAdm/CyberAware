@@ -1,0 +1,29 @@
+[
+  {
+    "user_id": "USR-0001",
+    "username": "admin",
+    "email": "admin@cyberaware.local",
+    "password_hash": "$argon2id$v=19$m=65536,t=3,p=4$72W+gVMTBvGVAit6b9hQ2Q$8/mDKLWFxOeJkNgRJhMtODQBWXMs4b5E5pNWKu+6v/Y",
+    "role": "admin",
+    "is_active": true,
+    "created_at": "2026-10-16T16:17:53"
+  },
+  {
+    "user_id": "USR-0002",
+    "username": "adam",
+    "email": "adam.egy@gmail.com",
+    "password_hash": "$argon2id$v=19$m=65536,t=3,p=4$7NdJX1Aag+/gXEuqAQ2A8g$y45gxMh2HA3UaA+wGKSMwORIIYLss3IrJCntK3Dt1JM",
+    "role": "user",
+    "is_active": true,
+    "created_at": "2026-10-16T16:22:45"
+  },
+  {
+    "user_id": "USR-0003",
+    "username": "adam123",
+    "email": "adam@gmail.com",
+    "password_hash": "$argon2id$v=19$m=65536,t=3,p=4$Rq25OFsuwR4JueY1e3yjiQ$ixniGqDWlB5RvI4F9JB8U5YNpZOEE/nmV4pgZ6MYBys",
+    "role": "user",
+    "is_active": true,
+    "created_at": "2026-10-16T16:43:36"
+  }
+]

@@ -1,0 +1,13 @@
+result_id,participant_code,quiz_stage,quiz_date,score,total_questions
+RES-0001,P-0001,pre-training,05/06/2026 02:00 PM,5,10
+RES-0002,P-0001,post-training,23/06/2026 02:00 PM,9,10
+RES-0003,P-0002,pre-training,03/07/2026 09:00 AM,5,10
+RES-0004,P-0002,post-training,09/07/2026 02:00 PM,6,10
+RES-0005,P-0003,pre-training,30/06/2026 09:00 AM,5,10
+RES-0006,P-0003,post-training,12/07/2026 01:00 PM,9,10
+RES-0007,P-0004,pre-training,24/06/2026 03:00 PM,4,10
+RES-0008,P-0004,post-training,29/06/2026 04:00 PM,4,10
+RES-0009,P-0005,pre-training,28/06/2026 03:00 PM,5,10
+RES-0010,P-0005,post-training,13/07/2026 05:00 PM,8,10
+RES-0011,P-0006,pre-training,10/07/2026 09:00 AM,7,10
+RES-0012,P-0006,post-training,28/07/2026 02:00 PM,10,10

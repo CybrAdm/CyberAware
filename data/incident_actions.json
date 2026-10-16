@@ -1,0 +1,184 @@
+[
+  {
+    "action_id": "ACT-0001",
+    "incident_id": "INC-1002",
+    "action_type": "Status changed: Submitted -> Under Review",
+    "action_time": "21/05/2026 07:18 PM",
+    "note": "Synthetic review started. No live suspicious link was opened."
+  },
+  {
+    "action_id": "ACT-0002",
+    "incident_id": "INC-1002",
+    "action_type": "Status changed: Under Review -> Resolved",
+    "action_time": "23/05/2026 12:26 AM",
+    "note": "Synthetic resolution recorded for demonstration."
+  },
+  {
+    "action_id": "ACT-0003",
+    "incident_id": "INC-1003",
+    "action_type": "Status changed: Submitted -> Under Review",
+    "action_time": "31/07/2026 09:00 AM",
+    "note": "Synthetic review started. No live suspicious link was opened."
+  },
+  {
+    "action_id": "ACT-0004",
+    "incident_id": "INC-1003",
+    "action_type": "Status changed: Under Review -> Resolved",
+    "action_time": "31/07/2026 08:06 PM",
+    "note": "Synthetic resolution recorded for demonstration."
+  },
+  {
+    "action_id": "ACT-0005",
+    "incident_id": "INC-1004",
+    "action_type": "Status changed: Submitted -> Under Review",
+    "action_time": "30/09/2026 10:04 PM",
+    "note": "Synthetic review started. No live suspicious link was opened."
+  },
+  {
+    "action_id": "ACT-0006",
+    "incident_id": "INC-1004",
+    "action_type": "Status changed: Under Review -> Resolved",
+    "action_time": "01/10/2026 07:05 AM",
+    "note": "Synthetic resolution recorded for demonstration."
+  },
+  {
+    "action_id": "ACT-0007",
+    "incident_id": "INC-1005",
+    "action_type": "Status changed: Submitted -> Under Review",
+    "action_time": "19/05/2026 06:56 PM",
+    "note": "Synthetic review started. No live suspicious link was opened."
+  },
+  {
+    "action_id": "ACT-0008",
+    "incident_id": "INC-1005",
+    "action_type": "Status changed: Under Review -> Resolved",
+    "action_time": "20/05/2026 10:59 AM",
+    "note": "Synthetic resolution recorded for demonstration."
+  },
+  {
+    "action_id": "ACT-0009",
+    "incident_id": "INC-1006",
+    "action_type": "Status changed: Submitted -> Under Review",
+    "action_time": "20/05/2026 09:42 PM",
+    "note": "Synthetic review started. No live suspicious link was opened."
+  },
+  {
+    "action_id": "ACT-0010",
+    "incident_id": "INC-1006",
+    "action_type": "Status changed: Under Review -> Resolved",
+    "action_time": "21/05/2026 10:27 PM",
+    "note": "Synthetic resolution recorded for demonstration."
+  },
+  {
+    "action_id": "ACT-0011",
+    "incident_id": "INC-1009",
+    "action_type": "Status changed: Submitted -> Under Review",
+    "action_time": "02/10/2026 03:54 AM",
+    "note": "Synthetic review started. No live suspicious link was opened."
+  },
+  {
+    "action_id": "ACT-0012",
+    "incident_id": "INC-1010",
+    "action_type": "Status changed: Submitted -> Under Review",
+    "action_time": "21/09/2026 03:49 AM",
+    "note": "Synthetic review started. No live suspicious link was opened."
+  },
+  {
+    "action_id": "ACT-0013",
+    "incident_id": "INC-1011",
+    "action_type": "Status changed: Submitted -> Under Review",
+    "action_time": "21/06/2026 08:55 PM",
+    "note": "Synthetic review started. No live suspicious link was opened."
+  },
+  {
+    "action_id": "ACT-0014",
+    "incident_id": "INC-1011",
+    "action_type": "Status changed: Under Review -> Resolved",
+    "action_time": "22/06/2026 06:51 AM",
+    "note": "Synthetic resolution recorded for demonstration."
+  },
+  {
+    "action_id": "ACT-0015",
+    "incident_id": "INC-1012",
+    "action_type": "Status changed: Submitted -> Under Review",
+    "action_time": "22/05/2026 04:35 AM",
+    "note": "Synthetic review started. No live suspicious link was opened."
+  },
+  {
+    "action_id": "ACT-0016",
+    "incident_id": "INC-1012",
+    "action_type": "Status changed: Under Review -> Resolved",
+    "action_time": "23/05/2026 07:21 AM",
+    "note": "Synthetic resolution recorded for demonstration."
+  },
+  {
+    "action_id": "ACT-0017",
+    "incident_id": "INC-1014",
+    "action_type": "Status changed: Submitted -> Under Review",
+    "action_time": "15/09/2026 12:33 AM",
+    "note": "Synthetic review started. No live suspicious link was opened."
+  },
+  {
+    "action_id": "ACT-0018",
+    "incident_id": "INC-1016",
+    "action_type": "Status changed: Submitted -> Under Review",
+    "action_time": "04/09/2026 06:53 AM",
+    "note": "Synthetic review started. No live suspicious link was opened."
+  },
+  {
+    "action_id": "ACT-0019",
+    "incident_id": "INC-1016",
+    "action_type": "Status changed: Under Review -> Resolved",
+    "action_time": "04/09/2026 07:25 AM",
+    "note": "Synthetic resolution recorded for demonstration."
+  },
+  {
+    "action_id": "ACT-0020",
+    "incident_id": "INC-1017",
+    "action_type": "Status changed: Submitted -> Under Review",
+    "action_time": "07/08/2026 10:05 PM",
+    "note": "Synthetic review started. No live suspicious link was opened."
+  },
+  {
+    "action_id": "ACT-0021",
+    "incident_id": "INC-1018",
+    "action_type": "Status changed: Submitted -> Under Review",
+    "action_time": "22/08/2026 09:24 PM",
+    "note": "Synthetic review started. No live suspicious link was opened."
+  },
+  {
+    "action_id": "ACT-0022",
+    "incident_id": "INC-1018",
+    "action_type": "Status changed: Under Review -> Resolved",
+    "action_time": "24/08/2026 06:20 AM",
+    "note": "Synthetic resolution recorded for demonstration."
+  },
+  {
+    "action_id": "ACT-0023",
+    "incident_id": "INC-1019",
+    "action_type": "Status changed: Submitted -> Under Review",
+    "action_time": "25/06/2026 05:06 PM",
+    "note": "Synthetic review started. No live suspicious link was opened."
+  },
+  {
+    "action_id": "ACT-0024",
+    "incident_id": "INC-1019",
+    "action_type": "Status changed: Under Review -> Resolved",
+    "action_time": "26/06/2026 08:50 PM",
+    "note": "Synthetic resolution recorded for demonstration."
+  },
+  {
+    "action_id": "ACT-0025",
+    "incident_id": "INC-1024",
+    "action_type": "Status changed: Submitted -> Under Review",
+    "action_time": "12/07/2026 07:51 AM",
+    "note": "Synthetic review started. No live suspicious link was opened."
+  },
+  {
+    "action_id": "ACT-0026",
+    "incident_id": "INC-1024",
+    "action_type": "Status changed: Under Review -> Closed",
+    "action_time": "13/07/2026 11:50 AM",
+    "note": "Synthetic closure recorded for demonstration."
+  }
+]

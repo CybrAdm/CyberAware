@@ -1,0 +1,98 @@
+[
+  {
+    "result_id": "RES-0001",
+    "participant_code": "P-0001",
+    "quiz_stage": "pre-training",
+    "quiz_date": "05/06/2026 02:00 PM",
+    "score": 5,
+    "total_questions": 10
+  },
+  {
+    "result_id": "RES-0002",
+    "participant_code": "P-0001",
+    "quiz_stage": "post-training",
+    "quiz_date": "23/06/2026 02:00 PM",
+    "score": 9,
+    "total_questions": 10
+  },
+  {
+    "result_id": "RES-0003",
+    "participant_code": "P-0002",
+    "quiz_stage": "pre-training",
+    "quiz_date": "03/07/2026 09:00 AM",
+    "score": 5,
+    "total_questions": 10
+  },
+  {
+    "result_id": "RES-0004",
+    "participant_code": "P-0002",
+    "quiz_stage": "post-training",
+    "quiz_date": "09/07/2026 02:00 PM",
+    "score": 6,
+    "total_questions": 10
+  },
+  {
+    "result_id": "RES-0005",
+    "participant_code": "P-0003",
+    "quiz_stage": "pre-training",
+    "quiz_date": "30/06/2026 09:00 AM",
+    "score": 5,
+    "total_questions": 10
+  },
+  {
+    "result_id": "RES-0006",
+    "participant_code": "P-0003",
+    "quiz_stage": "post-training",
+    "quiz_date": "12/07/2026 01:00 PM",
+    "score": 9,
+    "total_questions": 10
+  },
+  {
+    "result_id": "RES-0007",
+    "participant_code": "P-0004",
+    "quiz_stage": "pre-training",
+    "quiz_date": "24/06/2026 03:00 PM",
+    "score": 4,
+    "total_questions": 10
+  },
+  {
+    "result_id": "RES-0008",
+    "participant_code": "P-0004",
+    "quiz_stage": "post-training",
+    "quiz_date": "29/06/2026 04:00 PM",
+    "score": 4,
+    "total_questions": 10
+  },
+  {
+    "result_id": "RES-0009",
+    "participant_code": "P-0005",
+    "quiz_stage": "pre-training",
+    "quiz_date": "28/06/2026 03:00 PM",
+    "score": 5,
+    "total_questions": 10
+  },
+  {
+    "result_id": "RES-0010",
+    "participant_code": "P-0005",
+    "quiz_stage": "post-training",
+    "quiz_date": "13/07/2026 05:00 PM",
+    "score": 8,
+    "total_questions": 10
+  },
+  {
+    "result_id": "RES-0011",
+    "participant_code": "P-0006",
+    "quiz_stage": "pre-training",
+    "quiz_date": "10/07/2026 09:00 AM",
+    "score": 7,
+    "total_questions": 10
+  },
+  {
+    "result_id": "RES-0012",
+    "participant_code": "P-0006",
+    "quiz_stage": "post-training",
+    "quiz_date": "28/07/2026 02:00 PM",
+    "score": 10,
+    "total_questions": 10
+  }
+]

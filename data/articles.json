@@ -1,0 +1,52 @@
+[
+  {
+    "article_id": "ART-001",
+    "title": "How to Recognize Phishing",
+    "category": "Phishing / Suspicious Message",
+    "summary": "Urgent messages that imitate a trusted organization are a common way to steal passwords.",
+    "content": "Phishing messages try to trick people into revealing passwords, payment details, or other private information. Attackers may use urgent language, suspicious links, or messages that imitate a campus, bank, or lecturer. A report in CyberAware records the message. It does not prove that an attack succeeded.",
+    "source_name": "CyberAware awareness set",
+    "source_url": "",
+    "published_at": "2026-09-01"
+  },
+  {
+    "article_id": "ART-002",
+    "title": "Protecting an Account",
+    "category": "Account Security",
+    "summary": "A unique password and a second sign-in check reduce the impact of a leaked password.",
+    "content": "Reusing one password across services increases risk if one service is compromised. Unexpected password-reset mail and sign-in alerts from an unknown place should be reported, then checked through the official account page rather than through the message itself.",
+    "source_name": "CyberAware awareness set",
+    "source_url": "",
+    "published_at": "2026-09-01"
+  },
+  {
+    "article_id": "ART-003",
+    "title": "Understanding Malware",
+    "category": "Malware",
+    "summary": "Unexpected attachments, double extensions, and scare pop-ups are reasons to stop and report.",
+    "content": "Malware is software that a person did not intend to run. A file named like a document but ending in an executable extension, a USB installer from an unknown source, or a pop-up that demands a phone call should not be opened. Report the file name and where it came from.",
+    "source_name": "CyberAware awareness set",
+    "source_url": "",
+    "published_at": "2026-09-01"
+  },
+  {
+    "article_id": "ART-004",
+    "title": "Signs of Unauthorized Access",
+    "category": "Unauthorized Access",
+    "summary": "Unknown sessions, changed files, and mail the owner did not send need a review.",
+    "content": "Unauthorized access means someone used an account, mailbox, or shared folder without permission. Signs include a new device in the session list, files renamed overnight, or mail sent from a shared mailbox that the usual owners did not write. Change the password only through the official site after the report is filed.",
+    "source_name": "CyberAware awareness set",
+    "source_url": "",
+    "published_at": "2026-09-01"
+  },
+  {
+    "article_id": "ART-005",
+    "title": "Other Social Engineering Tricks",
+    "category": "Other",
+    "summary": "Phone calls, QR posters, and public Wi-Fi prompts can ask for information that should stay private.",
+    "content": "Not every report fits phishing, malware, or an account alert. A caller asking for a payment code, a QR poster that does not match the official site, or a cafe Wi-Fi page that asks for a certificate should be reported with what was asked and whether anything was opened or installed.",
+    "source_name": "CyberAware awareness set",
+    "source_url": "",
+    "published_at": "2026-09-01"
+  }
+]
